@@ -1,0 +1,26 @@
+{
+  "@odata.context": "https://lcdelevator.crm.dynamics.com/api/data/v9.2/$metadata#EntityDefinitions('fsip_maintenancecontract_devices')/Attributes(LogicalName,AttributeType)",
+  "value": [
+    {
+      "MetadataId": "4a8a9d48-6aa1-ec11-b400-000d3a5b3e3f",
+      "AttributeType": "Uniqueidentifier",
+      "LogicalName": "fsip_maintenancecontract_devicesid"
+    },
+    {
+      "MetadataId": "37244a37-66c0-47e7-9cdb-3435e6054e9b",
+      "AttributeType": "Uniqueidentifier",
+      "LogicalName": "fsip_maintenancecontractid"
+    },
+    {
+      "MetadataId": "90240e5a-30f5-4d02-a92b-4c023e9c07ae",
+      "AttributeType": "Uniqueidentifier",
+      "LogicalName": "new_servlocid"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BigIntAttributeMetadata",
+      "MetadataId": "1dc074e6-4000-4c09-89fe-e8c427905116",
+      "AttributeType": "BigInt",
+      "LogicalName": "versionnumber"
+    }
+  ]
+}

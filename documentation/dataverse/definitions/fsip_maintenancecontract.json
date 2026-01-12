@@ -1,0 +1,1323 @@
+{
+  "@odata.context": "https://lcdelevator.crm.dynamics.com/api/data/v9.2/$metadata#EntityDefinitions('fsip_maintenancecontract')/Attributes(LogicalName,AttributeType)",
+  "value": [
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "d7236c3e-3c8b-4799-8a42-95c6f8dbef00",
+      "AttributeType": "Lookup",
+      "LogicalName": "createdby"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "f32da441-661a-4e83-8cf5-ffa09fcb267b",
+      "AttributeType": "String",
+      "LogicalName": "createdbyname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "ac68bd89-0acf-4522-9dc3-c239b882fda2",
+      "AttributeType": "String",
+      "LogicalName": "createdbyyominame"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "7f3f5080-9db3-4335-8387-358808c632a8",
+      "AttributeType": "DateTime",
+      "LogicalName": "createdon"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "48191d2b-6f54-4936-91df-51af66fad95f",
+      "AttributeType": "Lookup",
+      "LogicalName": "createdonbehalfby"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "f27a8276-19cc-4e43-aac0-437307319b6a",
+      "AttributeType": "String",
+      "LogicalName": "createdonbehalfbyname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "e2f38303-733a-4844-90f4-3cc6a0722b72",
+      "AttributeType": "String",
+      "LogicalName": "createdonbehalfbyyominame"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DecimalAttributeMetadata",
+      "MetadataId": "c69981e8-31f7-44b1-be5f-6cba41f245ac",
+      "AttributeType": "Decimal",
+      "LogicalName": "exchangerate"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "b53c82be-bfae-476c-a7fc-329c57d4b6b2",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_1styearescalation"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "93fc9951-9c9b-47dd-92f9-c4f77b202c63",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_1styearescalation_base"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "412551ff-f30b-445a-9908-ca07c31d782f",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_2ndyearescalation"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "22249bf9-acca-4826-b9e9-9ce71bcc2956",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_2ndyearescalation_base"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "5199ca79-a262-4816-aef5-be51bd8bb116",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_3rdyearescalation"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "86c0e32f-e8c4-42bf-93a5-515b719f0549",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_3rdyearescalation_base"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "6d5e9081-6135-4dc2-81a7-706a6f6e909c",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_4thyearescalation"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "7a3154ab-4f6a-4165-819c-bd001980e37c",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_4thyearescalation_base"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "843aa503-893e-4684-975b-6496a94d2027",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_5thyearescalation"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "06389f3f-aa49-42f4-81dc-c9ed9e50fb53",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_5thyearescalation_base"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "5960c4c0-295b-44b1-8da6-79fece0a505a",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_activemmr"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "42bbeeb3-b36a-408f-9d31-2ac4e2d71ba7",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_activemmr_base"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "e1d1b51c-1d98-49ba-9fb4-01806426155b",
+      "AttributeType": "DateTime",
+      "LogicalName": "fsip_activemmr_date"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "82c6864c-87ae-4376-b131-dba0bf4423a3",
+      "AttributeType": "Integer",
+      "LogicalName": "fsip_activemmr_state"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "840db41a-672c-415d-af9b-669d6d02230d",
+      "AttributeType": "DateTime",
+      "LogicalName": "fsip_activeon"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "e87dfd0e-ff7c-47e1-84db-17e67db75d14",
+      "AttributeType": "Boolean",
+      "LogicalName": "fsip_addalldevicescontractbillings"
+    },
+    {
+      "MetadataId": "717db31c-0486-4b96-ad6a-2860df3c1f40",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_addalldevicescontractbillingsname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "1039915a-045e-4de3-b2fa-99927af876c9",
+      "AttributeType": "Boolean",
+      "LogicalName": "fsip_annualsafetytest"
+    },
+    {
+      "MetadataId": "7de8c82a-d18e-4abc-ac67-8f64d1b849db",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_annualsafetytestname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "ceae7814-f4d5-4460-a1a0-52ec87cc3b32",
+      "AttributeType": "Boolean",
+      "LogicalName": "fsip_autorenew"
+    },
+    {
+      "MetadataId": "26ce4678-9620-4d01-91df-99b99190da12",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_autorenewname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "a537d2da-8efa-4d76-a9b2-95e0fa4eed92",
+      "AttributeType": "DateTime",
+      "LogicalName": "fsip_billingenddate"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "83a9317e-87fa-4a66-aba0-ef7f2748c2ef",
+      "AttributeType": "DateTime",
+      "LogicalName": "fsip_billingendon"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "8bbc203a-2fff-40dd-a619-33bd07df5e40",
+      "AttributeType": "Integer",
+      "LogicalName": "fsip_billingfrequency"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "c5039c95-3b0c-46ff-bbf9-fd432119f9f8",
+      "AttributeType": "Picklist",
+      "LogicalName": "fsip_billingfrequencycode"
+    },
+    {
+      "MetadataId": "8d4d0dd2-e2ac-44fc-aec3-8e84b4ea8a77",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_billingfrequencycodename"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "01d50f45-7579-43e4-ba6f-00017ecc8c1e",
+      "AttributeType": "Boolean",
+      "LogicalName": "fsip_billinginprogress"
+    },
+    {
+      "MetadataId": "3c69e3ad-fe98-42d4-8589-e911940cd41b",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_billinginprogressname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "76166e27-4d43-4963-a83c-ba42b55f8e53",
+      "AttributeType": "Memo",
+      "LogicalName": "fsip_billingnote"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "57f28c5b-1af8-442f-aa4b-fd31c24cb7cd",
+      "AttributeType": "String",
+      "LogicalName": "fsip_billingnotecb"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "084870d8-bb4c-4803-b363-e953d9919073",
+      "AttributeType": "DateTime",
+      "LogicalName": "fsip_billingstarton"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "dc6f86ad-4838-4e3a-b400-9c54f2e786fb",
+      "AttributeType": "Customer",
+      "LogicalName": "fsip_billtocustomer"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.EntityNameAttributeMetadata",
+      "MetadataId": "74782fbf-f799-475c-bafe-f1eecfefc4e7",
+      "AttributeType": "EntityName",
+      "LogicalName": "fsip_billtocustomeridtype"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "05aaa768-bb93-453f-8be9-5f778511d142",
+      "AttributeType": "String",
+      "LogicalName": "fsip_billtocustomername"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "a87c31a2-8858-4e2d-af2f-584571fd057a",
+      "AttributeType": "String",
+      "LogicalName": "fsip_billtocustomeryominame"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "e866cb5c-8d11-4a14-b669-a647431c5fa2",
+      "AttributeType": "DateTime",
+      "LogicalName": "fsip_cancelon"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "c1dafcb7-c872-4b60-ad29-b3ee154c5c8f",
+      "AttributeType": "Boolean",
+      "LogicalName": "fsip_certificateofinsurance"
+    },
+    {
+      "MetadataId": "ec68bf62-8894-431d-beab-05ae3569e168",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_certificateofinsurancename"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "fd475ed1-6f8a-473a-a09e-6cd8155cfd7f",
+      "AttributeType": "Boolean",
+      "LogicalName": "fsip_cleanpithoistwaycartops"
+    },
+    {
+      "MetadataId": "89b58530-e48f-4bcb-837c-dd745ea186c5",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_cleanpithoistwaycartopsname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "8605bcfc-46cf-44f3-82ae-ed5db95ee53f",
+      "AttributeType": "Boolean",
+      "LogicalName": "fsip_closecontract"
+    },
+    {
+      "MetadataId": "568badb8-5f00-480d-bcef-54e1e424394e",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_closecontractname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "24d469a2-42b6-42c8-b1ff-7ceda4d4be2c",
+      "AttributeType": "DateTime",
+      "LogicalName": "fsip_closedate"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "fc1a41f9-8574-4780-9c93-811caf7fb9a0",
+      "AttributeType": "Picklist",
+      "LogicalName": "fsip_closedstatus"
+    },
+    {
+      "MetadataId": "a0d68fb1-2f7c-4c4b-9ef8-9bbde8f5ec4e",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_closedstatusname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "f52bb179-1a77-41e1-922d-89c52341d607",
+      "AttributeType": "Memo",
+      "LogicalName": "fsip_contractlanguage"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "8724a2b5-6fb3-499f-8b74-a5db9a3ffcff",
+      "AttributeType": "String",
+      "LogicalName": "fsip_contractnumber"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "82780533-8b57-49d0-ba23-fa56bd62a542",
+      "AttributeType": "DateTime",
+      "LogicalName": "fsip_contractreviewdate"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "2b325fc6-0958-42b3-bd29-4f3afad266a8",
+      "AttributeType": "Picklist",
+      "LogicalName": "fsip_contractservicelevelcode"
+    },
+    {
+      "MetadataId": "24d04751-993b-438e-9979-502a809383f2",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_contractservicelevelcodename"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "ff491fe4-5462-461c-8baa-b011c873f340",
+      "AttributeType": "Lookup",
+      "LogicalName": "fsip_contracttype"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "8fb47b45-1b16-4acc-961d-57492ff710c2",
+      "AttributeType": "String",
+      "LogicalName": "fsip_contracttypename"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "8f3e7de6-101e-4732-9abd-c8dbaae6ce83",
+      "AttributeType": "Lookup",
+      "LogicalName": "fsip_copydevicesfrombuildinglocation"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "59bcfb67-d884-430c-b654-39be4f3b3823",
+      "AttributeType": "String",
+      "LogicalName": "fsip_copydevicesfrombuildinglocationname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "a92004b7-03c9-4ed1-bad9-31c9650287b5",
+      "AttributeType": "Lookup",
+      "LogicalName": "fsip_copydevicesfromcontract"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "19312b97-14d1-4810-a2f5-93e09a4ede03",
+      "AttributeType": "String",
+      "LogicalName": "fsip_copydevicesfromcontractname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "7a61d904-f2ec-479b-a62f-4f16c966c812",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_costs"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "65d26f93-f03a-4971-abca-859f4fbe83da",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_costs_base"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "cc9745c5-06f1-4381-be4d-9f7dc4006c03",
+      "AttributeType": "DateTime",
+      "LogicalName": "fsip_costs_date"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "1fc93fde-e3d4-43ab-a803-8fa0699ea5af",
+      "AttributeType": "Integer",
+      "LogicalName": "fsip_costs_state"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DecimalAttributeMetadata",
+      "MetadataId": "427a6e77-960d-430c-b25b-a225aeb3ef95",
+      "AttributeType": "Decimal",
+      "LogicalName": "fsip_currentactualprofitpercent"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "d7735947-0055-430d-8416-761f92c18896",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_currentannualamount"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "73334270-e1bf-412b-97b9-548d033b9afc",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_currentannualamount_base"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "81aee9e2-39af-4161-acba-a5f56aef8497",
+      "AttributeType": "DateTime",
+      "LogicalName": "fsip_currentcontractenddate"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "3e51812e-e952-4b3f-bc77-e81aa27c656b",
+      "AttributeType": "DateTime",
+      "LogicalName": "fsip_currentcontractstartdate"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "4469b07d-0455-4068-9a5d-b1275be667ce",
+      "AttributeType": "Integer",
+      "LogicalName": "fsip_currentcontractyear"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "a634714c-6f9d-4708-957d-5e224181ed4e",
+      "AttributeType": "Customer",
+      "LogicalName": "fsip_customerid"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.EntityNameAttributeMetadata",
+      "MetadataId": "15640761-7c10-4193-9d81-07bbb8838420",
+      "AttributeType": "EntityName",
+      "LogicalName": "fsip_customerididtype"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "afde9400-ec35-4cc5-80a2-9f5f007a2eff",
+      "AttributeType": "String",
+      "LogicalName": "fsip_customeridname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "6cd20873-9a6e-4976-9a8f-764045699697",
+      "AttributeType": "String",
+      "LogicalName": "fsip_customeridyominame"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "584cec6d-d2de-4045-81e0-1929c47a2ab9",
+      "AttributeType": "String",
+      "LogicalName": "fsip_description"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "0add3b29-1faf-4dd8-a20a-9d8464d803ab",
+      "AttributeType": "Lookup",
+      "LogicalName": "fsip_division"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "be88a8fe-d1f6-4a03-9679-7d4f899644c0",
+      "AttributeType": "String",
+      "LogicalName": "fsip_divisionname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "6e6140ea-0621-4043-ad36-34d8bfc9da9a",
+      "AttributeType": "Integer",
+      "LogicalName": "fsip_duration"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "6cdc969f-fc84-4381-b10b-b0bc8daf2dd1",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_escalationamount"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "0cdd45b6-97a4-4684-8526-68dae65f4a02",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_escalationamount_base"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "a16b14b9-173e-46bb-a045-68d7997196f9",
+      "AttributeType": "Integer",
+      "LogicalName": "fsip_escalationfrequency"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DecimalAttributeMetadata",
+      "MetadataId": "31c3b859-90f7-4c18-a857-2b8d9dbe93eb",
+      "AttributeType": "Decimal",
+      "LogicalName": "fsip_escalationpercent"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "cd8761a3-43f6-4b6b-8fb6-86fea64233d7",
+      "AttributeType": "Boolean",
+      "LogicalName": "fsip_excludefromcontractescalations"
+    },
+    {
+      "MetadataId": "60d83509-f30d-4a7e-9b81-9c0dbca52bf2",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_excludefromcontractescalationsname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "928a33a3-915b-4d96-a47c-f74fb27ace6c",
+      "AttributeType": "Memo",
+      "LogicalName": "fsip_exclusions"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "abae74fb-13da-4722-b916-dae87f5c9a44",
+      "AttributeType": "DateTime",
+      "LogicalName": "fsip_expireson"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "2b5d9993-0f86-4b10-919b-4bfffd1a9702",
+      "AttributeType": "Boolean",
+      "LogicalName": "fsip_fiveyearsafetytest"
+    },
+    {
+      "MetadataId": "fd061de4-d96d-43bc-9582-a93064b36b9e",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_fiveyearsafetytestname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "82b08362-fdfe-493a-9199-bb2fe4c09a39",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_grossmargin"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "94dc8ade-08aa-42e6-9954-10b31af9fbeb",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_grossmargin_base"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DecimalAttributeMetadata",
+      "MetadataId": "fabb5f0c-8ac1-45ed-9dd6-0c381371143d",
+      "AttributeType": "Decimal",
+      "LogicalName": "fsip_grossmarginpercent"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "3015697b-5a82-4fb8-b72e-e2bfe8e8e772",
+      "AttributeType": "String",
+      "LogicalName": "fsip_holdnote"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "f41d9300-ecd6-408b-893d-91d9ccfd82bf",
+      "AttributeType": "String",
+      "LogicalName": "fsip_internalnote"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "e20f9c35-701e-47ef-9a92-1a758f499a2e",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_invoiceamount"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "019bc3e4-bec1-4fea-a0ee-87db8484917b",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_invoiceamount_base"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "26bfd05c-cb9f-4832-bfa0-a8df1fced258",
+      "AttributeType": "Picklist",
+      "LogicalName": "fsip_invoiceconsolidationtype"
+    },
+    {
+      "MetadataId": "68ec04f5-5de8-4f4e-86ea-a8af2a7a083f",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_invoiceconsolidationtypename"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "f548496b-5541-40e0-bb27-9fe9d46f143c",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_invoiced"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "c6694d34-2e2c-4397-b0b2-db6734dce175",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_invoiced_base"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "49d7b323-6a09-440a-a341-89e2aefcb185",
+      "AttributeType": "DateTime",
+      "LogicalName": "fsip_invoiced_date"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "ef165327-72cf-4c8f-83ab-4cf15d67064f",
+      "AttributeType": "Integer",
+      "LogicalName": "fsip_invoiced_state"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "b5d8d58e-fe6c-4eac-8f54-b4a881752980",
+      "AttributeType": "Picklist",
+      "LogicalName": "fsip_invoicingmethod"
+    },
+    {
+      "MetadataId": "07a0d557-2391-4064-98eb-7186e24b2dcb",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_invoicingmethodname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "cc81c9fd-9045-4271-9857-4ddf0f2d2dee",
+      "AttributeType": "DateTime",
+      "LogicalName": "fsip_lastescalationlettersent"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "1ff457e5-081e-4fda-8986-5c1aada1dda0",
+      "AttributeType": "DateTime",
+      "LogicalName": "fsip_lastinvoiced"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "20f1b475-b6ac-48e3-96b1-766eb1028139",
+      "AttributeType": "DateTime",
+      "LogicalName": "fsip_lastinvoiced_date"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "d2d9ea6a-b0f6-4fe9-b2b2-6b6ce0605794",
+      "AttributeType": "Integer",
+      "LogicalName": "fsip_lastinvoiced_state"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "667ac76b-75d3-4605-9f98-9f736438db70",
+      "AttributeType": "DateTime",
+      "LogicalName": "fsip_lastinvoicerollup"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "f11b740d-e734-4d33-bdff-34f98c0d7d18",
+      "AttributeType": "DateTime",
+      "LogicalName": "fsip_lastinvoicerollup_date"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "0b29cf29-a5dc-483e-91b8-fe11bac35b82",
+      "AttributeType": "Integer",
+      "LogicalName": "fsip_lastinvoicerollup_state"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "a54d3be1-90f5-45fa-a36a-2bc833e57626",
+      "AttributeType": "String",
+      "LogicalName": "fsip_legacycontract"
+    },
+    {
+      "MetadataId": "929a5b8c-6a75-4605-97ce-ef53b28fc3a0",
+      "AttributeType": "Uniqueidentifier",
+      "LogicalName": "fsip_maintenancecontractid"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "4e29669f-9114-4c20-87dc-869426854ae8",
+      "AttributeType": "String",
+      "LogicalName": "fsip_name"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "11534a39-fcdf-4a50-a38e-2fc580d1f9ea",
+      "AttributeType": "DateTime",
+      "LogicalName": "fsip_nextbillingdate"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "cd6a4969-a9f5-43c9-bbed-e789408ffeae",
+      "AttributeType": "DateTime",
+      "LogicalName": "fsip_nextcontractbillingdate"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "329f4831-8d83-4c83-b3e1-313eb0651333",
+      "AttributeType": "DateTime",
+      "LogicalName": "fsip_nextescalationdate"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "74330839-556a-4451-a52b-6021b794c1be",
+      "AttributeType": "DateTime",
+      "LogicalName": "fsip_nextservicedate"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "a7cefcff-59fb-4570-b694-090402a04fac",
+      "AttributeType": "String",
+      "LogicalName": "fsip_numberofvisits"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "6e4c20d8-bef7-42a3-9d09-418c4dab2e13",
+      "AttributeType": "Boolean",
+      "LogicalName": "fsip_onhold"
+    },
+    {
+      "MetadataId": "2e0b8e63-1966-4c8c-9516-6f1acb8a690b",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_onholdname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "e7aac465-4c80-4d5f-9893-77be018d2e09",
+      "AttributeType": "DateTime",
+      "LogicalName": "fsip_originalcontractstartdate"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "f1058c7d-8a87-4e1c-a492-621b2a3ede9a",
+      "AttributeType": "Lookup",
+      "LogicalName": "fsip_originatingcontract"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "719a1e8a-201d-4ebc-915b-ba10abd2a325",
+      "AttributeType": "String",
+      "LogicalName": "fsip_originatingcontractname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "6adb0031-cc73-4b59-8318-cce97c50aeea",
+      "AttributeType": "Boolean",
+      "LogicalName": "fsip_otminoradjustmentscbservice"
+    },
+    {
+      "MetadataId": "a5f07b23-c849-4a6f-82f6-920e7612ec09",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_otminoradjustmentscbservicename"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "f9cd2c65-dd0f-458c-9c56-619f7670d3d6",
+      "AttributeType": "Picklist",
+      "LogicalName": "fsip_payssafetyequipment"
+    },
+    {
+      "MetadataId": "b6488c32-81bf-49dd-b144-cd7c22ef5df4",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_payssafetyequipmentname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "642b44ac-cf00-4d1d-b892-d5d20d8d88a6",
+      "AttributeType": "Picklist",
+      "LogicalName": "fsip_percentageoramount"
+    },
+    {
+      "MetadataId": "73ed3f99-8f25-4042-82d2-d6b81be469bb",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_percentageoramountname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "c1e7a11a-60d9-4ee4-8203-56cf945f09f5",
+      "AttributeType": "Boolean",
+      "LogicalName": "fsip_permitfeesbillable"
+    },
+    {
+      "MetadataId": "10a058a2-e81d-4bc6-b48c-b26938a9a9b6",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_permitfeesbillablename"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "c1c0b5f9-de33-4068-b10a-0eb72701db1b",
+      "AttributeType": "String",
+      "LogicalName": "fsip_po"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "1ff73389-8ae5-4082-a495-26830c44c4bc",
+      "AttributeType": "Lookup",
+      "LogicalName": "fsip_primarybuildinglocation"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "b84b9402-c02a-4a74-a802-2fbc167156db",
+      "AttributeType": "String",
+      "LogicalName": "fsip_primarybuildinglocationname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "744d3235-d066-4e76-88d0-b899963352bf",
+      "AttributeType": "Boolean",
+      "LogicalName": "fsip_printbillingnote"
+    },
+    {
+      "MetadataId": "e3ca7a7f-3d73-4706-8064-581bd2372d8d",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_printbillingnotename"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "048130a4-f792-4dc1-a253-0cdf1e4b15da",
+      "AttributeType": "Lookup",
+      "LogicalName": "fsip_product"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "3628a17a-2d2a-40bc-abab-63fe8d33a876",
+      "AttributeType": "Lookup",
+      "LogicalName": "fsip_productcb"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "c1ea9471-b612-4d7b-8d71-592e44f50a9b",
+      "AttributeType": "String",
+      "LogicalName": "fsip_productcbname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "bafa8e53-bfb4-40cd-a123-3e761bb4d727",
+      "AttributeType": "String",
+      "LogicalName": "fsip_productname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "61c4501e-0054-4db0-9d5f-9e3b0ab33810",
+      "AttributeType": "Lookup",
+      "LogicalName": "fsip_project"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "602e44a3-704b-4c1a-ad4d-ef759c63627c",
+      "AttributeType": "String",
+      "LogicalName": "fsip_projectname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "843194a2-f69f-46de-b39f-38979702e7bc",
+      "AttributeType": "Memo",
+      "LogicalName": "fsip_proratedequipment"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DecimalAttributeMetadata",
+      "MetadataId": "a506ec28-c14b-4b12-9c7c-ef442130681c",
+      "AttributeType": "Decimal",
+      "LogicalName": "fsip_quantity"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "b56d1c2f-b6d1-4eb3-a231-e16698e4475c",
+      "AttributeType": "Boolean",
+      "LogicalName": "fsip_regulartimecbservice"
+    },
+    {
+      "MetadataId": "c2252a95-4bb2-45ae-bd6b-c469d107ed69",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_regulartimecbservicename"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "51e0843d-f025-4916-998c-f8e14c227575",
+      "AttributeType": "Lookup",
+      "LogicalName": "fsip_salesperson"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "f242baf4-d5f2-4884-ac6c-a1dbbb20362f",
+      "AttributeType": "String",
+      "LogicalName": "fsip_salespersonname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "696bbde6-1480-4c6b-be96-b6a34a0a2dbb",
+      "AttributeType": "String",
+      "LogicalName": "fsip_salespersonyominame"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "c78e0f77-61a3-4af0-9516-1b4de998d330",
+      "AttributeType": "Boolean",
+      "LogicalName": "fsip_schedulinginprogress"
+    },
+    {
+      "MetadataId": "5ccb3e0e-7a0e-434f-b927-81490b1455e1",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_schedulinginprogressname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "fb5dc85f-d823-4ba8-b33d-d0988658322b",
+      "AttributeType": "Boolean",
+      "LogicalName": "fsip_sendescalationletter"
+    },
+    {
+      "MetadataId": "14c42ea1-74af-4f4b-981b-00804598dc2b",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_sendescalationlettername"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "0762987c-0953-450c-be11-fade723df83b",
+      "AttributeType": "Lookup",
+      "LogicalName": "fsip_serviceaddress"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "802289d3-9292-4cab-b0ff-45b254c9c02d",
+      "AttributeType": "String",
+      "LogicalName": "fsip_serviceaddressname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "5efc1dc4-f022-486d-859c-b7a6d96331bd",
+      "AttributeType": "String",
+      "LogicalName": "fsip_serviceaddressyominame"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "a57770f0-80f5-47ec-a0f3-3389656ad0b7",
+      "AttributeType": "Lookup",
+      "LogicalName": "fsip_sortbyaccount"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "3a97aa6e-1e1c-4fc2-b708-e30130991147",
+      "AttributeType": "String",
+      "LogicalName": "fsip_sortbyaccountname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "615a05c9-93d1-464c-b06c-a6f7a333874a",
+      "AttributeType": "String",
+      "LogicalName": "fsip_sortbyaccountyominame"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MemoAttributeMetadata",
+      "MetadataId": "bacfc9c4-a4dc-45f7-b456-e5a613758741",
+      "AttributeType": "Memo",
+      "LogicalName": "fsip_specialconditions"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "3ad76a40-0443-4cb2-bffc-26b6e85b5ad2",
+      "AttributeType": "Boolean",
+      "LogicalName": "fsip_testbillable"
+    },
+    {
+      "MetadataId": "43e03f44-e362-4087-8ae9-6ce3632ff85f",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_testbillablename"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "ffa3c7e7-ff8c-441a-993a-f9cf26230a9d",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_totalcontract"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "c08bc900-4e64-4acb-b209-3062f82cad5a",
+      "AttributeType": "Money",
+      "LogicalName": "fsip_totalcontract_base"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "9f6123f3-a021-42d1-b6fc-f7baef6667d0",
+      "AttributeType": "Boolean",
+      "LogicalName": "fsip_usediscountaspercentage"
+    },
+    {
+      "MetadataId": "be740b5a-ba81-4c1d-aa86-f1ecf7519d19",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_usediscountaspercentagename"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "acc3f1fe-4ecc-44d3-a306-94e433aff7b3",
+      "AttributeType": "Picklist",
+      "LogicalName": "fsip_visitfrequency"
+    },
+    {
+      "MetadataId": "2926fbf1-dcc8-4900-891f-c0fdfeb7df14",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_visitfrequencyname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "a49f8ff4-93fe-4a8f-a2d9-632798bb1c2d",
+      "AttributeType": "Lookup",
+      "LogicalName": "fsip_wagecategory"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "69053871-ee85-478f-a53f-236a12f5e44f",
+      "AttributeType": "String",
+      "LogicalName": "fsip_wagecategoryname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BooleanAttributeMetadata",
+      "MetadataId": "6e88ecec-5331-4c2a-bf9d-3faac79add77",
+      "AttributeType": "Boolean",
+      "LogicalName": "fsip_won"
+    },
+    {
+      "MetadataId": "342da72f-0e17-4a15-9a48-63ddbc1dcc9b",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_wonname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "7eb8422c-ca20-49d9-99b3-3b067da463fe",
+      "AttributeType": "Picklist",
+      "LogicalName": "fsip_workorderconsolidationtype"
+    },
+    {
+      "MetadataId": "3954287c-48ce-4a5a-abd5-9e0cb8875cfe",
+      "AttributeType": "Virtual",
+      "LogicalName": "fsip_workorderconsolidationtypename"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "cb067c3a-5165-4216-a970-dd2b79a824b1",
+      "AttributeType": "Integer",
+      "LogicalName": "importsequencenumber"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "e309daf1-e6d0-ee11-9079-6045bd038b1f",
+      "AttributeType": "Picklist",
+      "LogicalName": "lcd_autorenewal"
+    },
+    {
+      "MetadataId": "dfa0b89a-f747-4f22-8818-103f258b81bc",
+      "AttributeType": "Virtual",
+      "LogicalName": "lcd_autorenewalname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "1d9ae6cf-0287-ef11-ac21-000d3a3ab148",
+      "AttributeType": "Picklist",
+      "LogicalName": "lcd_braketestbillable"
+    },
+    {
+      "MetadataId": "93899919-f813-470d-af91-582685f879c6",
+      "AttributeType": "Virtual",
+      "LogicalName": "lcd_braketestbillablename"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "b1835358-0387-ef11-ac21-000d3a326f08",
+      "AttributeType": "String",
+      "LogicalName": "lcd_braketestprice"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "3507a015-b114-f011-998a-000d3a308c5b",
+      "AttributeType": "Picklist",
+      "LogicalName": "lcd_cancelationnotifyoffice"
+    },
+    {
+      "MetadataId": "73b89b06-8276-47a7-9809-b7f5cdf5f6f7",
+      "AttributeType": "Virtual",
+      "LogicalName": "lcd_cancelationnotifyofficename"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "0345283c-b379-ee11-8179-6045bd0388ff",
+      "AttributeType": "String",
+      "LogicalName": "lcd_cancellationnotes"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "1e96121b-0287-ef11-ac21-0022480477d6",
+      "AttributeType": "Picklist",
+      "LogicalName": "lcd_cat1annualbillable"
+    },
+    {
+      "MetadataId": "29c31a1b-91df-461a-8c0f-dc544a85c2fc",
+      "AttributeType": "Virtual",
+      "LogicalName": "lcd_cat1annualbillablename"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "e3e81e45-0387-ef11-ac21-000d3a326f08",
+      "AttributeType": "String",
+      "LogicalName": "lcd_cat1annualprice"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "e4c4b739-0287-ef11-ac21-000d3a326f08",
+      "AttributeType": "Picklist",
+      "LogicalName": "lcd_cat5fullloadbillable"
+    },
+    {
+      "MetadataId": "0baf72d5-629b-4ec5-8815-0167ec681e96",
+      "AttributeType": "Virtual",
+      "LogicalName": "lcd_cat5fullloadbillablename"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "3c47f14a-0387-ef11-ac21-002248048cf3",
+      "AttributeType": "String",
+      "LogicalName": "lcd_cat5fullloadprice"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "73e7062a-358f-ee11-8179-6045bd07e840",
+      "AttributeType": "Picklist",
+      "LogicalName": "lcd_createcontractbilling"
+    },
+    {
+      "MetadataId": "bc697238-5874-48eb-a64c-b878258844a8",
+      "AttributeType": "Virtual",
+      "LogicalName": "lcd_createcontractbillingname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DecimalAttributeMetadata",
+      "MetadataId": "f819b637-ebd0-ee11-9079-6045bd0388ff",
+      "AttributeType": "Decimal",
+      "LogicalName": "lcd_daystoexpire"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "3b3a3740-0987-ef11-ac21-0022480477d6",
+      "AttributeType": "Money",
+      "LogicalName": "lcd_originalcontractamount"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+      "MetadataId": "8bf1cef7-8ae4-4eef-8054-7a72bc223d0f",
+      "AttributeType": "Money",
+      "LogicalName": "lcd_originalcontractamount_base"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.PicklistAttributeMetadata",
+      "MetadataId": "e58a54de-af14-f011-998a-000d3a308c5b",
+      "AttributeType": "Picklist",
+      "LogicalName": "lcd_runcancelflow"
+    },
+    {
+      "MetadataId": "032882b3-c9a0-451b-beeb-4e6e5a7722a4",
+      "AttributeType": "Virtual",
+      "LogicalName": "lcd_runcancelflowname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "dc97d54b-8898-ef11-8a6a-000d3a5a6b66",
+      "AttributeType": "String",
+      "LogicalName": "lcd_servicefrequencywords"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "28613778-de69-49ed-9a2f-805bc0015311",
+      "AttributeType": "Lookup",
+      "LogicalName": "modifiedby"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "4908809c-8c1a-48fb-a871-532f468550d3",
+      "AttributeType": "String",
+      "LogicalName": "modifiedbyname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "2c0aa01b-97f8-42ed-93d4-17aa9fecaca7",
+      "AttributeType": "String",
+      "LogicalName": "modifiedbyyominame"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "9b4a5f7a-173d-40d1-a0c6-8ef8659ebb38",
+      "AttributeType": "DateTime",
+      "LogicalName": "modifiedon"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "cecf5db8-0096-4f5c-a4b4-58bf50641b96",
+      "AttributeType": "Lookup",
+      "LogicalName": "modifiedonbehalfby"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "0eea48cc-bec2-4428-a5ee-baf050f4abc5",
+      "AttributeType": "String",
+      "LogicalName": "modifiedonbehalfbyname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "c5b0e1b4-d172-43b0-927b-908fcfb2b5d6",
+      "AttributeType": "String",
+      "LogicalName": "modifiedonbehalfbyyominame"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+      "MetadataId": "60d31878-72fc-44cf-ba5d-42e848ebebbd",
+      "AttributeType": "DateTime",
+      "LogicalName": "overriddencreatedon"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "3b334ae5-194b-4084-86f1-d1d17a5cbee9",
+      "AttributeType": "Owner",
+      "LogicalName": "ownerid"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "f2fdc4bc-3830-402a-bb51-42c76d9fc80d",
+      "AttributeType": "String",
+      "LogicalName": "owneridname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.EntityNameAttributeMetadata",
+      "MetadataId": "c7e66b88-b2e5-4289-9227-2efeeb886502",
+      "AttributeType": "EntityName",
+      "LogicalName": "owneridtype"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "ff78b695-69a1-ec11-b400-000d3a5b3e3f",
+      "AttributeType": "String",
+      "LogicalName": "owneridyominame"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "9d11d2d7-d4e4-4bc3-aeb6-12a22cc73dbf",
+      "AttributeType": "Lookup",
+      "LogicalName": "owningbusinessunit"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "d5be8fec-b394-4f41-b82c-ab263bee86c9",
+      "AttributeType": "String",
+      "LogicalName": "owningbusinessunitname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "eeb234d1-b49f-4ba5-a742-7b9bbcc3b9ec",
+      "AttributeType": "Lookup",
+      "LogicalName": "owningteam"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "2dbf6cf1-4b63-4d0c-80a3-2ada18ed651b",
+      "AttributeType": "Lookup",
+      "LogicalName": "owninguser"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StateAttributeMetadata",
+      "MetadataId": "835d3561-d15d-4dcb-8fc0-b24af4155d16",
+      "AttributeType": "State",
+      "LogicalName": "statecode"
+    },
+    {
+      "MetadataId": "0a804a18-12e6-45aa-a82f-58058387d8ef",
+      "AttributeType": "Virtual",
+      "LogicalName": "statecodename"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StatusAttributeMetadata",
+      "MetadataId": "34c1bc9c-153c-491b-a190-45b2bcc05f1e",
+      "AttributeType": "Status",
+      "LogicalName": "statuscode"
+    },
+    {
+      "MetadataId": "4ac5a716-3796-4308-90d0-156360ecca5b",
+      "AttributeType": "Virtual",
+      "LogicalName": "statuscodename"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "c2cd94c5-d6d3-447f-980b-f758d435429a",
+      "AttributeType": "Integer",
+      "LogicalName": "timezoneruleversionnumber"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+      "MetadataId": "ae7d9cff-7f35-4794-b303-3c9bce800204",
+      "AttributeType": "Lookup",
+      "LogicalName": "transactioncurrencyid"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.StringAttributeMetadata",
+      "MetadataId": "32ea8953-b030-486a-87e9-57fc620e4c99",
+      "AttributeType": "String",
+      "LogicalName": "transactioncurrencyidname"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.IntegerAttributeMetadata",
+      "MetadataId": "9de8662b-5d18-4656-98be-a39a8635a939",
+      "AttributeType": "Integer",
+      "LogicalName": "utcconversiontimezonecode"
+    },
+    {
+      "@odata.type": "#Microsoft.Dynamics.CRM.BigIntAttributeMetadata",
+      "MetadataId": "a3bdb7ba-599f-4be6-aa72-a10b7f51fdc6",
+      "AttributeType": "BigInt",
+      "LogicalName": "versionnumber"
+    }
+  ]
+}
