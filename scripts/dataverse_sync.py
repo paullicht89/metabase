@@ -234,7 +234,7 @@ def main() -> int:
             "filter": None,
             "staging_schema": "staging",
             "staging_table": "dv_new_servloc_raw",
-            "transform_sql": """CREATE OR REPLACE TABLE dataverse.new_servloc AS
+            "transform_sql": """CREATE OR REPLACE VIEW dataverse.new_servloc AS
 SELECT
     payload->>'new_servlocid' AS new_servlocid,
     payload->>'new_name'      AS new_name,
@@ -242,7 +242,7 @@ SELECT
     payload->>'_fsip_buildinglocation_value' AS fsip_buildinglocationid,
     NULLIF(payload->>'statecode','')::int AS statecode,
     payload->>'statecode@OData.Community.Display.V1.FormattedValue' AS statecodename,
-    NLLIF(payload->>'statuscode','')::int AS statuscode,
+    NULLIF(payload->>'statuscode','')::int AS statuscode,
     payload->>'statuscode@OData.Community.Display.V1.FormattedValue' AS statuscodename
 FROM staging.dv_new_servloc_raw;""",  # paste SQL later
         },
@@ -252,7 +252,7 @@ FROM staging.dv_new_servloc_raw;""",  # paste SQL later
             "filter": None,
             "staging_schema": "staging",
             "staging_table": "dv_fsip_maintenancecontract_raw",
-            "transform_sql": """REATE OR REPLACE TABLE dataverse.fsip_maintenancecontract AS
+            "transform_sql": """CREATE OR REPLACE VIEW dataverse.fsip_maintenancecontract AS
 SELECT
     payload->>'fsip_maintenancecontractid' AS fsip_maintenancecontractid,
     payload->>'fsip_name'      AS fsip_name,
@@ -261,7 +261,7 @@ SELECT
     payload->>'fsip_closedstatus@OData.Community.Display.V1.FormattedValue' AS fsip_closedstatusname,
     NULLIF(payload->>'fsip_closedstatus','')::int AS fsip_closedstatus,
     NULLIF(payload->>'fsip_closedate','')::date AS fsip_closedate,
-    NLLIF(payload->>'fsip_closecontract','')::boolean AS fsip_closecontract,
+    NULLIF(payload->>'fsip_closecontract','')::boolean AS fsip_closecontract,
     payload->>'new_carnumber' AS fsip_closecontractname,
     payload->>'_fsip_primarybuildinglocation_value' AS fsip_buildinglocationid,
     NULLIF(payload->>'statecode','')::int AS statecode,
@@ -276,7 +276,7 @@ FROM staging.dv_fsip_maintenancecontract _raw;""",
             "filter": None,
             "staging_schema": "staging",
             "staging_table": "dv_fsip_buildinglocations_raw",
-            "transform_sql": """CREATE OR REPLACE TABLE dataverse.fsip_buildinglocation AS
+            "transform_sql": """CREATE OR REPLACE VIEW dataverse.fsip_buildinglocation AS
 SELECT
     payload->>'fsip_buildinglocationid' AS fsip_buildinglocationid,
     payload->>'fsip_name'      AS fsip_name,
@@ -297,7 +297,7 @@ FROM staging.dv_fsip_buildinglocation_raw;""",
             "filter": None,
             "staging_schema": "staging",
             "staging_table": "dv_fsip_maintenancecontract_devices_raw",
-            "transform_sql": """CREATE OR REPLACE TABLE dataverse.fsip_buildinglocation AS
+            "transform_sql": """CREATE OR REPLACE VIEW dataverse.fsip_buildinglocation AS
 SELECT
     payload->>'fsip_buildinglocationid' AS fsip_buildinglocationid,
     payload->>'fsip_name'      AS fsip_name,
@@ -318,7 +318,7 @@ FROM staging.dv_fsip_buildinglocation_raw;""",
             "filter": None,
             "staging_schema": "staging",
             "staging_table": "dv_systemusers_raw",
-            "transform_sql": """CREATE OR REPLACE TABLE dataverse.systemusers AS
+            "transform_sql": """CREATE OR REPLACE VIEW dataverse.systemusers AS
 SELECT
     payload->>'systemuserid' AS systemuserId,
     payload->>'fullname'      AS fullname,
