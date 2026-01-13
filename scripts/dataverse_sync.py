@@ -268,7 +268,7 @@ SELECT
     payload->>'statecode@OData.Community.Display.V1.FormattedValue' AS statecodename,
     NULLIF(payload->>'statuscode','')::int AS statuscode,
     payload->>'statuscode@OData.Community.Display.V1.FormattedValue' AS statuscodename
-FROM staging.dv_fsip_maintenancecontract _raw;""",
+FROM staging.dv_fsip_maintenancecontract_raw;""",
         },
         "fsip_buildinglocations": {
             "entityset": "fsip_buildinglocations",
@@ -289,28 +289,20 @@ SELECT
     payload->>'statecode@OData.Community.Display.V1.FormattedValue' AS statecodename,
     NULLIF(payload->>'statuscode','')::int AS statuscode,
     payload->>'statuscode@OData.Community.Display.V1.FormattedValue' AS statuscodename
-FROM staging.dv_fsip_buildinglocation_raw;""",
+FROM staging.dv_fsip_buildinglocations_raw;""",
         },
         "fsip_maintenancecontract_devices": {
-            "entityset": "fsip_maintenancecontract_devices",
+            "entityset": "fsip_maintenancecontract_devicesset",
             "select": None,
             "filter": None,
             "staging_schema": "staging",
             "staging_table": "dv_fsip_maintenancecontract_devices_raw",
-            "transform_sql": """CREATE OR REPLACE VIEW dataverse.fsip_buildinglocation AS
+            "transform_sql": """CREATE OR REPLACE VIEW dataverse.fsip_maintenancecontract_devices AS
 SELECT
-    payload->>'fsip_buildinglocationid' AS fsip_buildinglocationid,
-    payload->>'fsip_name'      AS fsip_name,
-    payload->>'fsip_street' AS fsip_street,
-    NULLIF(payload->>'lcd_region','')::int AS lcd_region,
-    payload->>'lcd_region@OData.Community.Display.V1.FormattedValue' AS lcd_regionname,
-    payload->>'_fsip_primarytech_value' AS fsip_primarytech,
-    payload->>'_fsip_primarytech_value@OData.Community.Display.V1.FormattedValue' AS fsip_primarytechname,
-    NULLIF(payload->>'statecode','')::int AS statecode,
-    payload->>'statecode@OData.Community.Display.V1.FormattedValue' AS statecodename,
-    NULLIF(payload->>'statuscode','')::int AS statuscode,
-    payload->>'statuscode@OData.Community.Display.V1.FormattedValue' AS statuscodename
-FROM staging.dv_fsip_buildinglocation_raw;""",
+    payload->>'new_servlocid' AS new_servlocid,
+    payload->>'fsip_maintenancecontractid'      AS fsip_maintenancecontractid,
+    payload->>'fsip_maintenancecontract_devicesid' AS fsip_maintenancecontract_devicesid
+FROM staging.dv_fsip_maintenancecontract_devices_raw;""",
         },
         "systemusers": {
             "entityset": "systemusers",
