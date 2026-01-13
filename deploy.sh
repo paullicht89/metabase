@@ -2,7 +2,7 @@
 set -e
 
 SERVER="lcdelevadmin03@lcd-apps"
-APP_DIR="~/apps/metabase"
+APP_DIR="/home/lcdelevadmin03/apps/metabase"
 SERVICES=( )
 REMOTE_PATH="/home/lcdelevadmin03/apps/metabase"
 

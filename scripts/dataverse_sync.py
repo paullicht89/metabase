@@ -234,7 +234,17 @@ def main() -> int:
             "filter": None,
             "staging_schema": "staging",
             "staging_table": "dv_new_servloc_raw",
-            "transform_sql": None,  # paste SQL later
+            "transform_sql": """CREATE OR REPLACE TABLE dataverse.new_servloc AS
+SELECT
+    payload->>'new_servlocid' AS new_servlocid,
+    payload->>'new_name'      AS new_name,
+    payload->>'new_carnumber' AS new_carnumber,
+    payload->>'_fsip_buildinglocation_value' AS fsip_buildinglocationid,
+    NULLIF(payload->>'statecode','')::int AS statecode,
+    payload->>'statecode@OData.Community.Display.V1.FormattedValue' AS statecodename,
+    NLLIF(payload->>'statuscode','')::int AS statuscode,
+    payload->>'statuscode@OData.Community.Display.V1.FormattedValue' AS statuscodename
+FROM staging.dv_new_servloc_raw;""",  # paste SQL later
         },
         "fsip_maintenancecontract": {
             "entityset": "fsip_maintenancecontracts",
@@ -242,7 +252,23 @@ def main() -> int:
             "filter": None,
             "staging_schema": "staging",
             "staging_table": "dv_fsip_maintenancecontract_raw",
-            "transform_sql": None,
+            "transform_sql": """REATE OR REPLACE TABLE dataverse.fsip_maintenancecontract AS
+SELECT
+    payload->>'fsip_maintenancecontractid' AS fsip_maintenancecontractid,
+    payload->>'fsip_name'      AS fsip_name,
+    NULLIF(payload->>'fsip_originalcontractstartdate','')::date AS fsip_originalcontractstartdate,
+    NULLIF(payload->>'fsip_currentcontractstartdate','')::date AS fsip_currentcontractstartdate,
+    payload->>'fsip_closedstatus@OData.Community.Display.V1.FormattedValue' AS fsip_closedstatusname,
+    NULLIF(payload->>'fsip_closedstatus','')::int AS fsip_closedstatus,
+    NULLIF(payload->>'fsip_closedate','')::date AS fsip_closedate,
+    NLLIF(payload->>'fsip_closecontract','')::boolean AS fsip_closecontract,
+    payload->>'new_carnumber' AS fsip_closecontractname,
+    payload->>'_fsip_primarybuildinglocation_value' AS fsip_buildinglocationid,
+    NULLIF(payload->>'statecode','')::int AS statecode,
+    payload->>'statecode@OData.Community.Display.V1.FormattedValue' AS statecodename,
+    NULLIF(payload->>'statuscode','')::int AS statuscode,
+    payload->>'statuscode@OData.Community.Display.V1.FormattedValue' AS statuscodename
+FROM staging.dv_fsip_maintenancecontract _raw;""",
         },
         "fsip_buildinglocations": {
             "entityset": "fsip_buildinglocations",
@@ -250,7 +276,20 @@ def main() -> int:
             "filter": None,
             "staging_schema": "staging",
             "staging_table": "dv_fsip_buildinglocations_raw",
-            "transform_sql": None,
+            "transform_sql": """CREATE OR REPLACE TABLE dataverse.fsip_buildinglocation AS
+SELECT
+    payload->>'fsip_buildinglocationid' AS fsip_buildinglocationid,
+    payload->>'fsip_name'      AS fsip_name,
+    payload->>'fsip_street' AS fsip_street,
+    NULLIF(payload->>'lcd_region','')::int AS lcd_region,
+    payload->>'lcd_region@OData.Community.Display.V1.FormattedValue' AS lcd_regionname,
+    payload->>'_fsip_primarytech_value' AS fsip_primarytech,
+    payload->>'_fsip_primarytech_value@OData.Community.Display.V1.FormattedValue' AS fsip_primarytechname,
+    NULLIF(payload->>'statecode','')::int AS statecode,
+    payload->>'statecode@OData.Community.Display.V1.FormattedValue' AS statecodename,
+    NULLIF(payload->>'statuscode','')::int AS statuscode,
+    payload->>'statuscode@OData.Community.Display.V1.FormattedValue' AS statuscodename
+FROM staging.dv_fsip_buildinglocation_raw;""",
         },
         "fsip_maintenancecontract_devices": {
             "entityset": "fsip_maintenancecontract_devices",
@@ -258,7 +297,33 @@ def main() -> int:
             "filter": None,
             "staging_schema": "staging",
             "staging_table": "dv_fsip_maintenancecontract_devices_raw",
-            "transform_sql": None,
+            "transform_sql": """CREATE OR REPLACE TABLE dataverse.fsip_buildinglocation AS
+SELECT
+    payload->>'fsip_buildinglocationid' AS fsip_buildinglocationid,
+    payload->>'fsip_name'      AS fsip_name,
+    payload->>'fsip_street' AS fsip_street,
+    NULLIF(payload->>'lcd_region','')::int AS lcd_region,
+    payload->>'lcd_region@OData.Community.Display.V1.FormattedValue' AS lcd_regionname,
+    payload->>'_fsip_primarytech_value' AS fsip_primarytech,
+    payload->>'_fsip_primarytech_value@OData.Community.Display.V1.FormattedValue' AS fsip_primarytechname,
+    NULLIF(payload->>'statecode','')::int AS statecode,
+    payload->>'statecode@OData.Community.Display.V1.FormattedValue' AS statecodename,
+    NULLIF(payload->>'statuscode','')::int AS statuscode,
+    payload->>'statuscode@OData.Community.Display.V1.FormattedValue' AS statuscodename
+FROM staging.dv_fsip_buildinglocation_raw;""",
+        },
+        "systemusers": {
+            "entityset": "systemusers",
+            "select": None,
+            "filter": None,
+            "staging_schema": "staging",
+            "staging_table": "dv_systemusers_raw",
+            "transform_sql": """CREATE OR REPLACE TABLE dataverse.systemusers AS
+SELECT
+    payload->>'systemuserid' AS systemuserId,
+    payload->>'fullname'      AS fullname,
+    payload->>'domainname' AS domainname
+FROM staging.dv_systemusers_raw;""",
         },
     }
 
